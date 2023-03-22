@@ -5,12 +5,17 @@
     "containerId": "",
     "name": "localhost:3001/products",
     "url": "localhost:3001/products/",
-    "method": "GET",
+    "method": "POST",
     "sortNum": 0,
     "created": "2023-03-22T18:29:38.908Z",
-    "modified": "2023-03-22T20:02:02.286Z",
+    "modified": "2023-03-22T23:02:38.428Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Master Sword\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]

@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2023-03-22T18:29:38.908Z",
-    "modified": "2023-03-22T23:02:38.428Z",
+    "modified": "2023-03-22T23:33:11.670Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"Master Sword\"\n}",
+      "raw": "{}",
       "form": []
     },
     "tests": []

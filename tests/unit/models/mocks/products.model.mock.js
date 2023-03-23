@@ -13,6 +13,11 @@ const products = [
   }
 ];
 
+const newProduct = {
+  name: 'Master Sword',
+};
+
 module.exports = {
   products,
+  newProduct,
 };

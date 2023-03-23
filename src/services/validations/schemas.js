@@ -9,7 +9,17 @@ const validateNameProduct = Joi.object({
   'string.min': '"name" length must be at least 5 characters long',
 });
 
+const validateSale = Joi.array().items(Joi.object({
+  productId: Joi.number().integer().min(1).required()
+    .label('productId'),
+  quantity: Joi.number().integer().min(1).required()
+    .label('quantity'),
+}).messages({
+  'any.required': '{{#label}} is required',
+}));
+
 module.exports = {
   idSchema,
   validateNameProduct,
+  validateSale,
 };

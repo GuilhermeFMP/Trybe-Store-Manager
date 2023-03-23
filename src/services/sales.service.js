@@ -6,7 +6,6 @@ const createSales = async (sales) => {
   if (idInvalid.type) return idInvalid;
 
   const saleId = await salesModel.createDate();
-  console.log(saleId);
   await Promise.all(sales.map(async (sale) => salesModel.insert(sale, saleId)));
 
   const newSales = await salesModel.findbyId(saleId);

@@ -20,4 +20,14 @@ router.post(
   productsController.createProduct,
 );
 
+router.put(
+  '/:id',
+  productsController.attProduct,
+);
+
+router.delete(
+  '/:id',
+  productsController.deleteProduct,
+);
+
 module.exports = router;

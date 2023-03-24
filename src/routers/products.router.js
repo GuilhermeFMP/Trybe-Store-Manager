@@ -22,6 +22,7 @@ router.post(
 
 router.put(
   '/:id',
+  validations.inputProductValidation,
   productsController.attProduct,
 );
 

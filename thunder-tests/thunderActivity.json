@@ -4,16 +4,16 @@
     "colId": "history",
     "containerId": "",
     "name": "localhost:3001/products",
-    "url": "localhost:3001/products/9",
-    "method": "DELETE",
+    "url": "localhost:3001/products/1",
+    "method": "PUT",
     "sortNum": 0,
     "created": "2023-03-22T18:29:38.908Z",
-    "modified": "2023-03-24T06:10:34.875Z",
+    "modified": "2023-03-24T06:19:52.812Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{}",
+      "raw": "{\n  \"name\": \"Martelo do Batman\"\n}",
       "form": []
     },
     "tests": []

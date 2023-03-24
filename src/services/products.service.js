@@ -24,8 +24,8 @@ const attProduct = async (id, name) => {
 
   if (errorName.type) return errorName;
   if (errorId.type) return errorId;
-
   const product = await productsModel.findById(id);
+  console.log(product);
   if (!product) return { type: 'PRODUCT_NOT_FOUND', message: 'Product not found' };
   await productsModel.update(id, name);
   const updateProduct = await productsModel.findById(id);

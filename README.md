@@ -1,7 +1,7 @@
 
 # Projeto Store Manager
 
-Quinto projeto de Front-End fornecido pela instituição Trybe , onde criamos uma api restful com a arquitetura MVC.
+Quinto projeto de Back-End fornecido pela instituição Trybe , onde criamos uma api restful com a arquitetura MVC.
 
 
 ## Aprendizados
